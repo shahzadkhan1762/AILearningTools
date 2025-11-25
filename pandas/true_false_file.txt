@@ -1,0 +1,13 @@
+Name, Age, Applied
+hassan, 23, Yes
+abbas, 20,  yes
+akram, 30, no
+usman, 22,0
+waleed, 33, on
+sajid, 32,off
+kausar, 22,  Y
+zubair, 24,true
+wajahar, 28, false
+kareem, 21,  N
+noman, 23,1
+shahid, 24,   False

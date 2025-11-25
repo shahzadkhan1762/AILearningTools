@@ -1,0 +1,4 @@
+I Love Programming!
+I Love Creating New Games!
+This is my first day in file handling in python
+I will learn more about file latter

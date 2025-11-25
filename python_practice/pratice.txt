@@ -1,0 +1,199 @@
+a=input('enter a number ');
+      
+enter a number 42
+print(a);
+      
+42
+type(a);
+      
+<class 'str'>
+a=int(a);
+      
+type(a);
+      
+<class 'int'>
+print(a);
+      
+42
+
+==== RESTART: C:/Users/ABBAS/AppData/Local/Programs/Python/Python311/add.py ====
+enter a number34
+enter another number34
+3434
+
+==== RESTART: C:/Users/ABBAS/AppData/Local/Programs/Python/Python311/add.py ====
+enter a number34
+enter another number34
+68
+
+****************************
+  Defining a function
+****************************
+def square(num):
+    return num*num
+
+square(43);
+1849
+
+square(4);
+16
+
+*******************************
+# Here we assing function to x
+# This is possible because every thing in python is object
+x=square;
+x(43);
+1849
+
+************************
+# Deleting a function
+del square;
+square(d);
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    square(d);
+NameError: name 'square' is not defined
+x(d);
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    x(d);
+NameError: name 'd' is not defined. Did you mean: 'id'?
+
+def x(num):
+    if type(num) is int:
+        return num*num;
+    else:
+        print('invalid input');
+
+        
+x(a);
+1849
+x=int(input('enter a number '));
+enter a number 34
+type(a);
+<class 'int'>
+
+
+
+def parity(num):    #parity mean qulity of number even/odd
+    if num%2==0:
+        print('even')
+
+        
+parity(34);
+even
+def parity(num):
+    if num%2==0:
+        print('even');
+    else:
+        print('odd');
+
+        
+parity(d);
+Traceback (most recent call last):
+  File "<pyshell#92>", line 1, in <module>
+    parity(d);
+NameError: name 'd' is not defined. Did you mean: 'id'?
+parity(4);
+even
+parity(423);
+odd
+def parity(num):
+    """
+    this function determine the parity of a number
+    input : integer;
+    output : even/odd;
+    last modified : 14 apr 2023
+    """
+    if num%2==0:
+        print('enen)
+              
+SyntaxError: incomplete input
+def parity(num):
+    """
+    this function determine the parity of a number
+    input : integer;
+    output : even/odd;
+    last modified : 14 apr 2023
+    """
+    if num%2==0:
+        print('even')
+    else :
+        print('odd')
+
+        
+parity(d);
+Traceback (most recent call last):
+  File "<pyshell#102>", line 1, in <module>
+    parity(d);
+NameError: name 'd' is not defined. Did you mean: 'id'?
+parity(4);
+even
+print(parity.__doc__);
+
+    this function determine the parity of a number
+    input : integer;
+    output : even/odd;
+    last modified : 14 apr 2023
+    
+print.__doc__
+'Prints the values to a stream, or to sys.stdout by default.\n\n  sep\n    string inserted between values, default a space.\n  end\n    string appended after the last value, default a newline.\n  file\n    a file-like object (stream); defaults to the current sys.stdout.\n  flush\n    whether to forcibly flush the stream.'
+
+def
+SyntaxError: incomplete input
+def schoolname(school):
+    if school=='bagato':
+        print('welcome')
+    elif school=='hist':
+        print('welcome')
+    else:
+        print('sorry')
+
+        
+schoolname('hangu');
+sorry
+schoolname('bagato');
+welcome
+schoolname('hist');
+welcome
+
+
+
+
+def square(num):
+    x=num*num;
+    return x;
+
+x=43;
+square(x);
+1849
+print(x);
+43
+
+
+def square():
+    return x*x;
+
+square(x);
+Traceback (most recent call last):
+  File "<pyshell#133>", line 1, in <module>
+    square(x);
+TypeError: square() takes 0 positional arguments but 1 was given
+square();
+1849
+
+
+
+parity(square(x));
+Traceback (most recent call last):
+  File "<pyshell#138>", line 1, in <module>
+    parity(square(x));
+TypeError: square() takes 0 positional arguments but 1 was given
+
+
+def square(num):
+    x=num*num;
+    return x;
+
+parity(square(x));
+odd
